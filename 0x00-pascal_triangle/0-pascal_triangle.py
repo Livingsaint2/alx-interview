@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 """ scal Triangle Interview Challenge for ALX SE"""
 
 
