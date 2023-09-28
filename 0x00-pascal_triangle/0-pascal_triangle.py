@@ -8,7 +8,7 @@
      if n <= 0:
         return []
 
-        pascal_triangle = [0] * n
+     pascal_triangle = [0] * n
 
         for i in range(n):
         # define a row and fill first and last idx with 1
@@ -21,5 +21,5 @@
                     a = pascal_triangle[i - 1][j]
                     b = pascal_triangle[i - 1][j - 1]
                     new_row[j] = a + b
-                                                                                      pascal_triangle[i] = new_row
-                                                                                      return pascal_triangle
+            pascal_triangle[i] = new_row
+                                                                         return pascal_triangle
