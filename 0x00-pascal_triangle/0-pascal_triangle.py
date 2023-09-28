@@ -1,4 +1,5 @@
- scal Triangle Interview Challenge for ALX SE"""
+#!/bin/bash/python3
+""" scal Triangle Interview Challenge for ALX SE"""
 
 
  def pascal_triangle(n):
