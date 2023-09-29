@@ -24,4 +24,4 @@ def pascal_triangle(n):
 
         pascal_triangle[i] = new_row
 
-    return pascal
+    return pascal_triangle
