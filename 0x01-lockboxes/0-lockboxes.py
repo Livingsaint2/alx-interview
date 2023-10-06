@@ -7,7 +7,7 @@ after traversing the keys
 
 def canUnlockAll(boxes):
     """
-    A function that 
+    A function that
     Creates a register to know if the boxes are opened
 
     Args:
