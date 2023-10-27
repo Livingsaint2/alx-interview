@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 """
-UTF-8 Validation
+This software defines rules to check if an integer combination is a valid
+UTF-8 Encoding
+
+A valid UTF-8 character can be 1 - 4 bytes long.
+For a 1-byte character, the first bit is a 0, followed by its unicode.
+For an n-bytes character, the first n-bits are all ones, the n+1 bit is 0,
+followed by n-1 bytes with most significant 2 bits being 10.
 """
 
 
